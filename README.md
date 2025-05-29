@@ -109,4 +109,5 @@ For a deep dive into the architecture, control flow, FSM diagrams, and simulatio
 Chao-Jia Liu (Peter)
 M.S. in Electrical Engineering
 The University of Texas at San Antonio
-linkedin.com/in/chaojialiu615 | peterliu880615@gmail.com
+
+http://www.linkedin.com/in/chaojialiu615 | peterliu880615@gmail.com
