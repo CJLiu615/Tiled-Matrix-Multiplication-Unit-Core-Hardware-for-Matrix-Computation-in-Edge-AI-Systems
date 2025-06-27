@@ -10,11 +10,17 @@ Matrix multiplication is a cornerstone operation in deep learning. While cloud s
 
 ![image](https://github.com/user-attachments/assets/828bfb23-6e80-4936-87ee-bd5197526a65)
 
+![image](https://github.com/user-attachments/assets/d0a48ad2-c289-4cfe-8faf-fe088b2031c6)
+
 * Using an INT8 data format for optimal energy efficiency
 
 * Integrating a 4×4 systolic Tensor Processing Unit (TPU)
 
 * Employing a CISC instruction set for control flexibility
+
+![image](https://github.com/user-attachments/assets/6d7119c5-aa1e-4bd5-95b7-747b0647b96d)
+
+![image](https://github.com/user-attachments/assets/58e5fa0f-a868-4e2b-8328-38f15cb0c185)
 
 **🧱 Architecture**
 
@@ -23,6 +29,12 @@ The TMMU consists of two main layers:
 * **Level 2 Controller (TMMU)**: Top-level unit handling data flow and instruction sequencing
 
 * **Level 1 Controller (TPU)**: Manages fine-grained execution of matrix operations
+
+![image](https://github.com/user-attachments/assets/46108636-a93c-4b4c-9cb8-ca449013b03d)
+
+![image](https://github.com/user-attachments/assets/56e014fb-8429-4a72-a7ac-3dab64d19d4c)
+
+![image](https://github.com/user-attachments/assets/b6ed5375-8939-4b79-8cd7-20ef9c347c19)
 
 Key components include:
 
@@ -34,6 +46,8 @@ Key components include:
 
 * Systolic data setup and MMU
 
+![image](https://github.com/user-attachments/assets/9b9f8721-8d0a-4333-a87b-f9067cac618d)
+
 **⚙️ Features**
 
 * Supports matrix sizes from 1×1 to 8×8 via tiling
@@ -41,6 +55,14 @@ Key components include:
 * Tiled matrix computation strategy improves memory locality and parallelism
 
 * Cycle-accurate simulation using Verilog testbenches
+
+![image](https://github.com/user-attachments/assets/3b1c3e91-69ad-41a5-860c-212ef8a19327)
+
+![image](https://github.com/user-attachments/assets/8b55f9c6-56f2-498b-941f-46ced4e610aa)
+
+![image](https://github.com/user-attachments/assets/1090c2b1-75ad-4bfa-bb3c-2b3a5627d070)
+
+![image](https://github.com/user-attachments/assets/eb651e9f-3399-474b-8da8-22de953694c0)
 
 * Power estimation via Xilinx Vivado
 
