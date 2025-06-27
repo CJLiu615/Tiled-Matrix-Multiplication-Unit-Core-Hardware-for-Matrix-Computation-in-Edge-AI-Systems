@@ -8,6 +8,8 @@ Matrix multiplication is a cornerstone operation in deep learning. While cloud s
 
 * Supporting basic and tiled matrix multiplication
 
+![image](https://github.com/user-attachments/assets/828bfb23-6e80-4936-87ee-bd5197526a65)
+
 * Using an INT8 data format for optimal energy efficiency
 
 * Integrating a 4×4 systolic Tensor Processing Unit (TPU)
